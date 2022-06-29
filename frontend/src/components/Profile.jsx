@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Typography from '@mui/material/Typography';
 
 function Profile() {
   return (
     <>
-        <h1>Your name</h1>
-        <h2>your Passport id</h2>
+        <Typography variant='h1'>Your name</Typography>
+        <Typography variant='h2'>Your passport ID</Typography>
     </>
   )
 }
